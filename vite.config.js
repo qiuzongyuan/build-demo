@@ -18,6 +18,7 @@ export default defineConfig({
     outDir: 'es',
     emptyOutDir: false,
     minify: false,
+    cssCodeSplit: true,
     lib: {
       entry: resolve(__dirname, 'src/index.js')
     },
